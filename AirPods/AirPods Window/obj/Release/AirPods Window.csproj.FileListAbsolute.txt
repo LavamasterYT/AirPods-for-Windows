@@ -1,0 +1,14 @@
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\bin\Release\AirPods Window.exe.config
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\bin\Release\AirPods Window.exe
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\bin\Release\AirPods Window.pdb
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\MainWindow.baml
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\MainWindow.g.cs
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\App.g.cs
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window_Content.g.cs
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window_MarkupCompile.cache
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window.g.resources
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods_Window.Properties.Resources.resources
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window.csproj.GenerateResource.cache
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window.exe
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\obj\Release\AirPods Window.pdb
+C:\Users\Freddy\source\repos\AirPod Helper\AirPods Window\bin\Release\movie.mp4

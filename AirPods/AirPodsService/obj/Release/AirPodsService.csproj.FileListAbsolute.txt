@@ -1,0 +1,12 @@
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\AirPodsService.exe.config
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\AirPodsService.exe
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\AirPodsService.pdb
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.csprojAssemblyReference.cache
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.Form1.resources
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.Properties.Resources.resources
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.csproj.GenerateResource.cache
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.exe
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.pdb
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\InTheHand.Net.Personal.dll
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\InTheHand.Net.Personal.xml
+C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.csproj.CopyComplete
