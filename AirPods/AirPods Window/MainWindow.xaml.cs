@@ -27,6 +27,9 @@ namespace AirPods_Window
         //Name of the AirPods
         string name = "AirPods";
 
+        //Type of AirPods
+        int gen = (int)Generation.GenOne;
+
         public MainWindow()
         {
             //Gets the name of the AirPods from the registry. This name was set by the AirPods service, see the Service project.
@@ -34,6 +37,10 @@ namespace AirPods_Window
             if (reg != null)
             {
                 name = reg.GetValue("name", "AirPods").ToString();
+                int i = (int)reg.GetValue("generation", 1);
+                if (i == (int)Generation.GenOne) gen = (int)Generation.GenOne;
+                else if (i == (int)Generation.GenTwo) gen = (int)Generation.GenTwo;
+                else if (i == (int)Generation.Pro) gen = (int)Generation.Pro;
             }
 
             InitializeComponent();
@@ -47,6 +54,8 @@ namespace AirPods_Window
 
             //Changes the window title
             this.Title = name;
+
+            //Change video animation to appropiate animation
         }
 
         /// <summary>
@@ -103,7 +112,7 @@ namespace AirPods_Window
         private async void FadeIn()
         {
             //Fades in
-            for (double i = 0; i =< 1; i += 0.1)
+            for (double i = 0; i <= 1; i += 0.1)
             {
                 this.Opacity = i;
                 mainBorder.Opacity = i;
@@ -114,12 +123,19 @@ namespace AirPods_Window
         private async void FadeOut()
         {
             //Fades out
-            for (double i = 1; i => 0; i -= 0.1)
+            for (double i = 1; i >= 0; i -= 0.1)
             {
                 this.Opacity = i;
                 mainBorder.Opacity = i;
                 await Task.Delay(waitDelay);
             }
         }
+    }
+
+    public enum Generation
+    {
+        GenOne,
+        GenTwo,
+        Pro
     }
 }

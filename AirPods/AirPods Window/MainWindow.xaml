@@ -24,7 +24,7 @@
                 <Label x:Name="airpodName" Content="AirPods" HorizontalAlignment="Center" FontFamily="./#SF Pro Display Light" Foreground="#404040" FontSize="30" Margin="5 10"/>
 
                 <!-- Responsible for playing the AirPods animation -->
-                <MediaElement x:Name="loop" Source="./movie.mp4" MediaEnded="loop_MediaEnded"/>
+                <MediaElement x:Name="loop" Source="./genone.mp4" MediaEnded="loop_MediaEnded"/>
 
                 <!-- Where the battery would usually go -->
                 <Label/>
