@@ -10,3 +10,15 @@ C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsSer
 C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\InTheHand.Net.Personal.dll
 C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\bin\Release\InTheHand.Net.Personal.xml
 C:\Users\Freddy\source\repos\AirPod Helper\AirPodsService\obj\Release\AirPodsService.csproj.CopyComplete
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Release\AirPodsService.exe.config
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Release\AirPodsService.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Release\AirPodsService.pdb
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Release\InTheHand.Net.Personal.dll
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Release\InTheHand.Net.Personal.xml
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.csprojAssemblyReference.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.Form1.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.Properties.Resources.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.csproj.GenerateResource.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.csproj.CopyComplete
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Release\AirPodsService.pdb

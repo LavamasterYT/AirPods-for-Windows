@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("movie.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("genone.mp4")]
 
 

@@ -1,0 +1,15 @@
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\bin\Debug\genone.mp4
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\bin\Debug\AirPods Window.exe.config
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\bin\Debug\AirPods Window.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\bin\Debug\AirPods Window.pdb
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window.csprojAssemblyReference.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\MainWindow.baml
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\MainWindow.g.cs
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\App.g.cs
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window_Content.g.cs
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window_MarkupCompile.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window.g.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods_Window.Properties.Resources.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window.csproj.GenerateResource.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPods Window\obj\Debug\AirPods Window.pdb

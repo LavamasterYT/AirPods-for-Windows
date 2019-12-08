@@ -1,0 +1,12 @@
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Debug\AirPodsService.exe.config
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Debug\AirPodsService.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Debug\AirPodsService.pdb
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Debug\InTheHand.Net.Personal.dll
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\bin\Debug\InTheHand.Net.Personal.xml
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.csprojAssemblyReference.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.Form1.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.Properties.Resources.resources
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.csproj.GenerateResource.cache
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.csproj.CopyComplete
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.exe
+D:\Documents\GitHub\AirPods-for-Windows\AirPods\AirPodsService\obj\Debug\AirPodsService.pdb

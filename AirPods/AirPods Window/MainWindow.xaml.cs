@@ -33,7 +33,7 @@ namespace AirPods_Window
         public MainWindow()
         {
             //Gets the name of the AirPods from the registry. This name was set by the AirPods service, see the Service project.
-            RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AirPod Helper", true);
+            RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AirPods Service", true);
             if (reg != null)
             {
                 name = reg.GetValue("name", "AirPods").ToString();

@@ -28,7 +28,7 @@ namespace AirPodsService
                 bool hasConnected = false;
 
                 //Main registry variable
-                RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AirPod Helper", true);
+                RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AirPods Service", true);
 
                 //Creates a bluetooth client
                 BluetoothClient client = new BluetoothClient();
