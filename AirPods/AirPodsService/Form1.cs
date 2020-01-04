@@ -75,7 +75,7 @@ namespace AirPodsService
                                 break;
                             }
                         }
-                        else
+                        else if (device.DeviceAddress == address)
                         {
                             hasConnected = false;
                         }
