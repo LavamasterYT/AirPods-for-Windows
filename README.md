@@ -20,3 +20,5 @@ I am planning to rewrite the entire program. Some planned features I plan to add
 - And many more...
 
 All of this, however, will depend on how much free time I have. Hopefully I can knock out half of those features before Feburary.
+
+Oh yea I might change the name of the project to something different. Suggest some creative names!
