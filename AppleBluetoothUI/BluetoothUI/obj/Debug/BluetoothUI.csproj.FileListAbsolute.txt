@@ -1,0 +1,17 @@
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\bin\Debug\BluetoothUI.exe.config
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\bin\Debug\BluetoothUI.exe
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\bin\Debug\BluetoothUI.pdb
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.csprojAssemblyReference.cache
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\App.g.cs
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI_MarkupCompile.cache
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI_MarkupCompile.lref
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.g.resources
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.Properties.Resources.resources
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.csproj.GenerateResource.cache
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.exe
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\BluetoothUI.pdb
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\Configurator.g.cs
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\Configurator.baml
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\LightUI.g.cs
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\obj\Debug\LightUI.baml
+C:\Users\Jose Molina\source\repos\AppleBluetoothUI\BluetoothUI\bin\Debug\Templates\genone.json

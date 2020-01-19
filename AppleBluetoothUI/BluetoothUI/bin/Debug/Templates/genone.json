@@ -1,0 +1,8 @@
+{
+  "templatename": "Airpods Generation 1",
+  "usingimage": "false",
+  "iconlocation": "Assets\\ag1.mp4",
+  "statictext": "false",
+  "staticname": "AirPods",
+  "buttontext": "Done"
+}
