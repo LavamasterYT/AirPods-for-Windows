@@ -18,11 +18,18 @@ I am planning to rewrite the entire program. Some planned features I plan to add
 All of this, however, will depend on how much free time I have. Hopefully I can knock out half of those features before Feburary.
 
 # Done features
-0.3 Release date: 1/23/2020 (maybe earlier hopefully?)
-- Misc bluetooth devices
-- Ability to add your own custom animation
-- Static device name
-- Custom "Done" button text
-- Configurator
+0.3 Release date: 1/23/2020 (maybe earlier hopefully? Maybe later? Hopefully it releases before Feb.)
 
-Oh yea I might change the name of the project to something different. Suggest some creative names!
+## Changelog
+- Configurator to change settings
+- A better setup (A .msi setup)
+- Ability to repair bluetooth device
+- Customizable UI:
+  - Change animation to your own video or a image or a music file or whatever MediaElemnt supports
+  - Custom "Done" button text
+  - Ability to have a static name (so it doesn't default to you devices name)
+ - Create your own templates using a .json file
+- Project renamed to Apple Bluetooth UI
+
+### Notes
+AirPods Generation 2, Beats, etc are currently still not supported as I need access to a jailbroken device to extract the animations from the FS, so once Checkra1n comes out for linux, I will update it, however you can add your own support for these devices by creating your template, instructions will be included later.
