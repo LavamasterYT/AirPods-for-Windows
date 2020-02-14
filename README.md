@@ -32,4 +32,6 @@ All of this, however, will depend on how much free time I have. Hopefully I can 
 - Project renamed to Apple Bluetooth UI
 
 ### Notes
+2/13/20 - A jailbreak for A13 is coming soon so that means i will be able to natively support gen 2 airpods and stuff so just wait a week at max hopefully
+
 AirPods Generation 2, Beats, etc are currently still not supported as I need access to a jailbroken device to extract the animations from the FS, so once Checkra1n comes out for linux, I will update it, however you can add your own support for these devices by creating your template, instructions will be included later.
