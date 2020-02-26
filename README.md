@@ -32,5 +32,7 @@ All of this, however, will depend on how much free time I have. Hopefully I can 
 It's currently 2/25/2020 and its 10:06pm where I live and I have school tomorrow. If I can somehow extract the animations for AirPods Gen2 and Pro, Beats, and other headphones it might be supported on release instead of you know... a later version. Let's just see how this goes. After release I will add a section to this readme to show how to create a custom template for this program.
 
 Update: It's 2/25/2020 and tis 10:18pm and...
+
 ![Animations](https://i.imgur.com/5qkukkO.png)
+
 (It says 8:13pm thats because my PC is in pacific time instead of central time)
