@@ -11,3 +11,7 @@ I am planning to rewrite the entire program. Some planned features I plan to add
 - USB Devices support
 - Multiple devices (might take a while idk)
 - And many more...
+
+# Support
+For support PM me on Reddit: www.reddit.com/u/LavamasterYT
+Found a bug? PM me or file a issue on GitHub.
