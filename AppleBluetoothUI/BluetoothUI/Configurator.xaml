@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BluetoothUI"
         mc:Ignorable="d"
-        Title="Configurator" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Background="WhiteSmoke"
+        ResizeMode="NoResize"
+        Title="Configurator (AppleBluetoothUI Ver. 0.3)" Height="660" Width="410">
+    <ScrollViewer>
+        <StackPanel Margin="10, 10">
+            <GroupBox Header="Debug">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5 5">
+                        <Button Content="Start Service" x:Name="start" Click="start_Click" Margin="5 0" Padding="45 0"/>
+                        <Button Content="Stop Service" x:Name="stop" Click="stop_Click" Margin="6 0" Padding="45 0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="5 5">
+                        <Button Content="Test UI" x:Name="test" Click="test_Click" Margin="5 0" Padding="60 0"/>
+                        <Button Content="Close" x:Name="close" Click="close_Click" Margin="6 0" Padding="63 0"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <Label/>
+            <GroupBox Header="Templates">
+                <StackPanel Margin="10 10" x:Name="templates">
+                    <RadioButton Content="AirPods Generation 1" IsChecked="True" GroupName="template" x:Name="gen1" Checked="template_Checked"/>
+                    <RadioButton Content="Other" IsChecked="False" GroupName="template" x:Name="other" Checked="template_Checked"/>
+                </StackPanel>
+            </GroupBox>
+            <Label/>
+            <GroupBox Header="Template Information">
+                <ListBox Margin="5 5" x:Name="tempInfo" Height="130">
+                </ListBox>
+            </GroupBox>
+            <GroupBox Header="Pair Bluetooth Device">
+                <StackPanel>
+                    <Label/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="refresh" Content="Refresh/Scan" Click="refresh_Click" Margin="5 0" Grid.Column="0"/>
+                        <Button x:Name="applyBt" Content="Apply Bluetooth Device" Click="apply_Click_1" Margin="5 0" IsEnabled="False" Grid.Column="1"/>
+                    </Grid>
+                    <Label/>
+                    <ListBox x:Name="btDevices" Height="200">
+
+                    </ListBox>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </ScrollViewer>
 </Window>

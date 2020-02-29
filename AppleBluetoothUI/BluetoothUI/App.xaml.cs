@@ -15,7 +15,17 @@ namespace BluetoothUI
     {
         public App()
         {
-            new LightUI().Show();
+            
+        }
+
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            if (e.Args.Length == 0)
+                new Configurator().Show();
+            else if (e.Args[0] == "-show")
+                new LightUI().Show();
+            else
+                new Configurator().Show();
         }
     }
 }

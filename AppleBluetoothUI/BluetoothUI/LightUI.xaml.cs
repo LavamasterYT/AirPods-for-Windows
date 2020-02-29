@@ -24,16 +24,10 @@ namespace BluetoothUI
         int waitDelay = 1;
 
         //Name of the AirPods
-        string name = Settings.GetStaticText();
-
-        //Check to see if its a image or animtation
-        bool isImage = false;
+        string name = Settings.GetDeviceName();
 
         //Path to the image/animation
         string path = System.IO.Path.Combine(Environment.CurrentDirectory, Settings.GetAssetSource());
-
-        //Checks to see if we use the bluetooth device name or a custom static name
-        bool staticText = false;
 
         //Self explanitory
         string buttonText = Settings.GetButtonText();
@@ -62,12 +56,19 @@ namespace BluetoothUI
             else
             {
                 anim = new MediaElement();
+                anim.Width = 285;
+                anim.Height = 135;
                 anim.Source = new Uri(path, UriKind.RelativeOrAbsolute);
                 anim.MediaEnded += Anim_MediaEnded;
                 asset.Children.Add(anim);
                 anim.LoadedBehavior = MediaState.Manual;
                 anim.Play();
             }
+
+            if (Settings.CheckIfUsingStaticText())
+                deviceName.Content = Settings.GetStaticText();
+            else
+                deviceName.Content = Settings.GetDeviceName();
 
             this.doneButton.Content = buttonText;
         }
@@ -102,7 +103,7 @@ namespace BluetoothUI
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             //Fade out
             FadeOut();
@@ -126,72 +127,21 @@ namespace BluetoothUI
         private async void FadeIn()
         {
             //Fades in
-            this.Opacity = 0.1;
-            mainBorder.Opacity = 0.1;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.2;
-            mainBorder.Opacity = 0.2;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.3;
-            mainBorder.Opacity = 0.3;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.4;
-            mainBorder.Opacity = 0.4;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.5;
-            mainBorder.Opacity = 0.5;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.6;
-            mainBorder.Opacity = 0.6;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.7;
-            mainBorder.Opacity = 0.7;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.8;
-            mainBorder.Opacity = 0.8;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.9;
-            mainBorder.Opacity = 0.9;
-            await Task.Delay(waitDelay);
-            this.Opacity = 1;
-            mainBorder.Opacity = 1;
+            for (double i = 0; i <= 1; i += 0.1)
+            {
+                this.Opacity = i;
+                await Task.Delay(waitDelay);
+            }
         }
 
         private async void FadeOut()
         {
             //Fades out
-            this.Opacity = 1;
-            mainBorder.Opacity = 1;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.9;
-            mainBorder.Opacity = 0.9;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.8;
-            mainBorder.Opacity = 0.8;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.7;
-            mainBorder.Opacity = 0.7;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.6;
-            mainBorder.Opacity = 0.6;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.5;
-            mainBorder.Opacity = 0.5;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.4;
-            mainBorder.Opacity = 0.4;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.3;
-            mainBorder.Opacity = 0.3;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.2;
-            mainBorder.Opacity = 0.2;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0.1;
-            mainBorder.Opacity = 0.1;
-            await Task.Delay(waitDelay);
-            this.Opacity = 0;
-            mainBorder.Opacity = 0;
+            for (double i = 1; i >= 0; i -= 0.1)
+            {
+                this.Opacity = i;
+                await Task.Delay(10);
+            }
         }
     }
 }
