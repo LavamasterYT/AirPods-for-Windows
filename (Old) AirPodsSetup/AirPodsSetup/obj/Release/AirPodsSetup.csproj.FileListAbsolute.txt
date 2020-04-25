@@ -1,0 +1,11 @@
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\data.zip
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\AirPodsSetup.exe.config
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\AirPodsSetup.exe
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\AirPodsSetup.pdb
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\InTheHand.Net.Personal.dll
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\bin\Release\InTheHand.Net.Personal.xml
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\obj\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\obj\Release\AirPodsSetup.csproj.ResolveComReference.cache
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\obj\Release\AirPodsSetup.csproj.CopyComplete
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\obj\Release\AirPodsSetup.exe
+C:\Users\Freddy\source\repos\AirPodsSetup\AirPodsSetup\obj\Release\AirPodsSetup.pdb

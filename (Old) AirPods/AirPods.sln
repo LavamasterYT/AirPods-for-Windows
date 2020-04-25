@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirPods Window", "AirPods Window\AirPods Window.csproj", "{6BC0867D-7A52-4BA2-B917-D89DF1B673C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirPodsService", "AirPodsService\AirPodsService.csproj", "{BEF78089-7D68-4B0D-96DE-3C0B916FCFF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC0867D-7A52-4BA2-B917-D89DF1B673C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC0867D-7A52-4BA2-B917-D89DF1B673C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC0867D-7A52-4BA2-B917-D89DF1B673C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC0867D-7A52-4BA2-B917-D89DF1B673C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF78089-7D68-4B0D-96DE-3C0B916FCFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF78089-7D68-4B0D-96DE-3C0B916FCFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF78089-7D68-4B0D-96DE-3C0B916FCFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF78089-7D68-4B0D-96DE-3C0B916FCFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DBF3FC2-B909-4975-AD96-EFBF67BEBA14}
+	EndGlobalSection
+EndGlobal

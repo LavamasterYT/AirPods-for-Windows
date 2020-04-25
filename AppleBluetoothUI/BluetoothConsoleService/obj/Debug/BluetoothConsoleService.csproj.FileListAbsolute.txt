@@ -1,0 +1,9 @@
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\bin\Debug\BluetoothConsoleService.exe.config
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\bin\Debug\BluetoothConsoleService.exe
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\bin\Debug\BluetoothConsoleService.pdb
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\obj\Debug\BluetoothConsoleService.csprojAssemblyReference.cache
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\obj\Debug\BluetoothConsoleService.exe
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\obj\Debug\BluetoothConsoleService.pdb
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\bin\Debug\InTheHand.Net.Personal.dll
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\bin\Debug\InTheHand.Net.Personal.xml
+D:\VS Projects\1-25-20\AppleBluetoothUI\BluetoothConsoleService\obj\Debug\BluetoothConsoleService.csproj.CopyComplete
