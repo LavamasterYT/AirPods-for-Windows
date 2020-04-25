@@ -17,6 +17,9 @@ The changelog for 0.4 will be:
 - Multiple devices support.
 - Use of JSON files to store configurations and settings
 - Add ability to have custom colors on the prompt.
+- Rewrite of the configurator to accomidate for multiple devices and JSON
+
+Release date TBA.
 
 # Support
 For support PM me on Reddit: www.reddit.com/u/LavamasterYT
