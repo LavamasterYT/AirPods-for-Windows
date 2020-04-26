@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+021yQ569hGNKZD24GyRNJbmu2k66grvyupBCKdm/y0eM+giNkxszrb+X3Fvkokp15tDzoa2P0Arr9EqSiJ6jQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\BluetoothService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\32feet.net\\3.5.0\\32feet.net.3.5.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.19041.1-preview.vb-release\\microsoft.windows.sdk.contracts.10.0.19041.1-preview.vb-release.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

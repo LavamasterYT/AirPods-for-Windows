@@ -41,3 +41,5 @@ C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\Bluet
 C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\BluetoothUI\obj\Release\BluetoothUI.csproj.CopyComplete
 C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\BluetoothUI\obj\Release\BluetoothUI.exe
 C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\BluetoothUI\obj\Release\BluetoothUI.pdb
+C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\BluetoothUI\obj\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\Jose Molina\Documents\GitHub\AirPods-for-Windows\AppleBluetoothUI\BluetoothUI\obj\Release\BluetoothUI.csproj.ResolveComReference.cache

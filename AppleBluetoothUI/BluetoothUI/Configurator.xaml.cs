@@ -14,7 +14,10 @@ using System.Windows.Shapes;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using InTheHand.Net.Bluetooth;
+using System.IO;
 using InTheHand.Net.Sockets;
+using IWshRuntimeLibrary;
+using System.Reflection;
 
 namespace BluetoothUI
 {
@@ -69,17 +72,16 @@ namespace BluetoothUI
 
         private void close_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            System.Diagnostics.Process.Start("README.txt");
         }
 
         private async void refresh_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Make sure the bluetooth device has previously been paired with this computer before. This will freeze the application until the scan is complete.");
             BluetoothDevices.Clear();
             applyBt.IsEnabled = false;
             refresh.IsEnabled = false;
             BluetoothClient bc = new BluetoothClient();
-            BluetoothDeviceInfo[] bdi = await Task.FromResult(bc.DiscoverDevices());
+            BluetoothDeviceInfo[] bdi = await Task.Run(() => bc.DiscoverDevices());
             foreach (BluetoothDeviceInfo i in bdi)
             {
                 BluetoothDevices.Add(i.DeviceName, i.DeviceAddress.ToInt64());
@@ -191,6 +193,43 @@ namespace BluetoothUI
                 UpdateTemplateInfo();
                 return;
             }
+        }
+
+        private void addToStartUp_Click(object sender, RoutedEventArgs e)
+        {
+            string dir = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\";
+            string path = dir + "BluetoothService.lnk";
+            string serviceExecutable = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\BluetoothService.exe";
+
+            try
+            {
+                if (System.IO.File.Exists(path))
+                {
+                    System.IO.File.Delete(path);
+                    MessageBox.Show("Shortcut removed at " + path + "!");
+                }
+                else
+                {
+                    CreateShortcut("BluetoothService", dir, serviceExecutable);
+                    MessageBox.Show("Created shortcut to start up programs at " + path + "!");
+                }
+            }
+            catch (Exception el)
+            {
+                MessageBox.Show("Unable to create the shortcut, try running as administrator since the Startup folder is only available to administrators.");
+            }
+        }
+
+        public static void CreateShortcut(string shortcutName, string shortcutPath, string targetFileLocation)
+        {
+            string shortcutLocation = System.IO.Path.Combine(shortcutPath, shortcutName + ".lnk");
+            WshShell shell = new WshShell();
+            IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutLocation);
+
+            shortcut.Description = "My shortcut description";   // The description of the shortcut
+            shortcut.IconLocation = @"c:\myicon.ico";           // The icon of the shortcut
+            shortcut.TargetPath = targetFileLocation;                 // The path of the file that will launch when the shortcut is run
+            shortcut.Save();                                    // Save the shortcut
         }
     }
 }

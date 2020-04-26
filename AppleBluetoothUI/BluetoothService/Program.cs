@@ -1,10 +1,11 @@
-﻿using System;
-using System.IO;
-using System.Net;
+﻿using JCS;
+using System;
 using Microsoft.Win32;
 using System.Threading;
-using System.Windows.Forms;
 using InTheHand.Net.Sockets;
+using System.Threading.Tasks;
+using um = Windows.Devices.Bluetooth;
+using System.Windows.Forms;
 
 namespace BluetoothService
 {
@@ -12,10 +13,17 @@ namespace BluetoothService
     {
         static void Main()
         {
-            bool checkforupdates = true;
+            if (int.Parse(Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion").GetValue("ReleaseId").ToString()) >= 1904 && OSVersionInfo.Name == "Windows 10")
+                MainLoop().GetAwaiter().GetResult();
+            else
+                Deprecated();
+        }
 
+        static async Task MainLoop()
+        {
             try
             {
+                Console.WriteLine("Getting program configuration...");
                 RegistryKey reg1 = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AppleBluetoothUI");
                 string temp;
                 temp = reg1.GetValue("AssetLocation").ToString();
@@ -26,47 +34,67 @@ namespace BluetoothService
                 temp = reg1.GetValue("UsingImage").ToString();
                 temp = reg1.GetValue("TemplateName").ToString();
                 temp = reg1.GetValue("UsingStaticText").ToString();
-                temp = reg1.GetValue("UpdateCheck", 1).ToString();
-                if (temp == "0")
-                    checkforupdates = false;
             }
             catch (Exception e)
             {
-                MessageBox.Show("Please pair a bluetooth device!");
+                Console.WriteLine("Please pair a bluetooth device!");
+                MessageBox.Show("Please pair a bluetooth device or check your configurations.");
                 System.Diagnostics.Process.Start("BluetoothUI.exe");
-                Environment.Exit(0);
-                return;
+                Environment.Exit(-1);
             }
 
-            if (checkforupdates)
+            //Main registry variable
+            RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AppleBluetoothUI", true);
+
+            //Create the bluetooth device variable
+            um.BluetoothDevice bd = await um.BluetoothDevice.FromBluetoothAddressAsync(Convert.ToUInt64(reg.GetValue("DeviceAddress")));
+
+            //Create event handler
+            bd.ConnectionStatusChanged += Bd_ConnectionStatusChanged;
+
+            //Main loop
+            while (true)
             {
-                string version = "0.3";
-                string temppath = Path.Combine(Path.GetTempPath(), "APBUI");
-                string file = Path.Combine(temppath, "version.txt");
+                Console.WriteLine("Running program, this message will keep repeating itself so the program does not exit.");
+                Thread.Sleep(500);
+            }
+        }
 
-                if (!Directory.Exists(temppath))
-                    Directory.CreateDirectory(temppath);
+        private static void Bd_ConnectionStatusChanged(um.BluetoothDevice sender, object args)
+        {
+            Console.WriteLine("Connection status changed!");
+            if (sender.ConnectionStatus == um.BluetoothConnectionStatus.Connected)
+            {
+                Console.WriteLine("We have not connected before, opening pop up");
+                System.Diagnostics.Process.Start(System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "BluetoothUI.exe"), "-show");
+            }
+        }
 
-                try
-                {
-                    using (WebClient wc = new WebClient())
-                    {
-                        wc.DownloadFile("https://raw.githubusercontent.com/LavamasterYT/AirPods-for-Windows/master/version.txt", file);
-                    }
+        static void Deprecated()
+        {
+            try
+            {
+                Console.WriteLine("USING DEPRECATED METHOD, UPDATE TO WINDOWS 10 1903 OR HIGHER TO USE UP TO DATE METHOD");
 
-                    using (StreamReader sr = new StreamReader(file))
-                    {
-                        string line = sr.ReadLine();
-                        if (line != version)
-                            MessageBox.Show($"A new update ({line}) is available to download.");
-                    }
-
-                    Directory.Delete(temppath, true);
-                }
-                catch (Exception e)
-                {
-                    MessageBox.Show("Unable to check for updates");
-                }
+                Console.WriteLine("Getting program configuration...");
+                RegistryKey reg1 = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\AppleBluetoothUI");
+                string temp;
+                temp = reg1.GetValue("AssetLocation").ToString();
+                temp = reg1.GetValue("ButtonText").ToString();
+                temp = reg1.GetValue("DeviceAddress").ToString();
+                temp = reg1.GetValue("DeviceName").ToString();
+                temp = reg1.GetValue("StaticText").ToString();
+                temp = reg1.GetValue("UsingImage").ToString();
+                temp = reg1.GetValue("TemplateName").ToString();
+                temp = reg1.GetValue("UsingStaticText").ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Please pair a bluetooth device or check your configurations.");
+                Console.WriteLine("Please pair a bluetooth device or check your configurations.");
+                System.Diagnostics.Process.Start("BluetoothUI.exe");
+                Console.ReadKey(true);
+                Environment.Exit(-1);
             }
 
             bool hasConnected = false;
@@ -89,24 +117,32 @@ namespace BluetoothService
             else
             {
                 //Exits since its invalid
-                Environment.Exit(0);
+                Console.WriteLine("The bluetooth address is invalid. Please repair your bluetooth device.");
+                Console.ReadKey(true);
+                Environment.Exit(-1);
             }
 
             //Main loop
             while (true)
             {
+                Console.WriteLine("Scanning bluetooth devices... Please wait.");
                 //Get array of nearby bluetooth devices
                 BluetoothDeviceInfo[] deviceInfo = client.DiscoverDevices();
 
                 //Go through each item in deviceInfo array
                 foreach (var device in deviceInfo)
                 {
+                    Console.WriteLine("Discovered devices:");
+                    Console.WriteLine($"{device.DeviceName} | {device.DeviceAddress}");
+
                     //Checks to see if its your AirPods and if they are connected
                     if (device.DeviceAddress.ToInt64() == address && device.Connected)
                     {
+                        Console.WriteLine("This device is connected and matches the address paired!");
                         //Checks if they have been connected before, this is to avoid the window popping up multiple times
                         if (!hasConnected)
                         {
+                            Console.WriteLine("This device has not been connected before, opening pop up!");
                             hasConnected = true;
 
                             //Assuming the pop up executable is in the same folder, start it
@@ -118,6 +154,7 @@ namespace BluetoothService
                     }
                     else if (device.DeviceAddress.ToInt64() == address)
                     {
+                        Console.WriteLine("Device has been disconnected.");
                         hasConnected = false;
                     }
                 }

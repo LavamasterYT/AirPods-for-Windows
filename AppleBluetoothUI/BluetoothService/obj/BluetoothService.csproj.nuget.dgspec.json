@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\BluetoothService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\BluetoothService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\BluetoothService.csproj",
+        "projectName": "BluetoothService",
+        "projectPath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\BluetoothService.csproj",
+        "packagesPath": "C:\\Users\\Jose Molina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AppleBluetoothUI\\BluetoothService\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jose Molina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Jose Molina\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "32feet.NET": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.19041.1-preview.vb-release, )"
+            }
+          },
+          "imports": [
+            "uap10.0.19041"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

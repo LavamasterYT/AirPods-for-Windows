@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Background="WhiteSmoke"
         ResizeMode="NoResize"
-        Title="Configurator (AppleBluetoothUI Ver. 0.3)" Height="660" Width="410">
+        Title="Configurator (AppleBluetoothUI Ver. 0.31)" Height="660" Width="410">
     <ScrollViewer>
         <StackPanel Margin="10, 10">
-            <GroupBox Header="Debug">
+            <GroupBox Header="Main">
                 <StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="5 5">
                         <Button Content="Start Service" x:Name="start" Click="start_Click" Margin="5 0" Padding="45 0"/>
@@ -19,7 +19,11 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5 5">
                         <Button Content="Test UI" x:Name="test" Click="test_Click" Margin="5 0" Padding="60 0"/>
-                        <Button Content="Close" x:Name="close" Click="close_Click" Margin="6 0" Padding="63 0"/>
+                        <Button Content="Open README.txt" x:Name="close" Click="close_Click" Margin="6 0" Padding="30 0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="5 5" HorizontalAlignment="Center">
+                        <Button Content="Add/Remove to/from Startup Programs" x:Name="addToStartUp" Click="addToStartUp_Click" Margin="5 0" HorizontalAlignment="Center" Padding="15 0"/>
                     </StackPanel>
                 </StackPanel>
             </GroupBox>

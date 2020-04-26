@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothUI", "BluetoothUI\BluetoothUI.csproj", "{2688E9E2-D967-4698-826C-EB1FAFE1AA0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothService", "BluetoothService\BluetoothService.csproj", "{E8427A3A-2724-419C-81CA-D2111554FCF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothConsoleService", "BluetoothConsoleService\BluetoothConsoleService.csproj", "{8FA01D3C-37D2-4514-B900-42C34710A644}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothService", "BluetoothService\BluetoothService.csproj", "{A78F04FF-68C2-4873-A2C9-3A83296C93D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,10 @@ Global
 		{2688E9E2-D967-4698-826C-EB1FAFE1AA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2688E9E2-D967-4698-826C-EB1FAFE1AA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2688E9E2-D967-4698-826C-EB1FAFE1AA0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8427A3A-2724-419C-81CA-D2111554FCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8427A3A-2724-419C-81CA-D2111554FCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8427A3A-2724-419C-81CA-D2111554FCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8427A3A-2724-419C-81CA-D2111554FCF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8FA01D3C-37D2-4514-B900-42C34710A644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FA01D3C-37D2-4514-B900-42C34710A644}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8FA01D3C-37D2-4514-B900-42C34710A644}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8FA01D3C-37D2-4514-B900-42C34710A644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78F04FF-68C2-4873-A2C9-3A83296C93D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78F04FF-68C2-4873-A2C9-3A83296C93D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78F04FF-68C2-4873-A2C9-3A83296C93D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78F04FF-68C2-4873-A2C9-3A83296C93D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
