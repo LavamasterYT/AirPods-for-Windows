@@ -1,0 +1,2 @@
+So before uploading source code, go on each project, properties, build, and on Output path on Output, change it to bin/Debug
+or if its on release, bin/Release

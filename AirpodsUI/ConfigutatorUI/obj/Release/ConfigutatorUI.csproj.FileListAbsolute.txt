@@ -1,0 +1,15 @@
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\bin\Release\ConfigutatorUI.exe.config
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\bin\Release\ConfigutatorUI.exe
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\bin\Release\ConfigutatorUI.pdb
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\bin\Release\InTheHand.Net.Personal.dll
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.csprojAssemblyReference.cache
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.MainForm.resources
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.PairBluetooth.resources
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.PairUSB.resources
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.Properties.Resources.resources
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.csproj.GenerateResource.cache
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.csproj.CoreCompileInputs.cache
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.csproj.CopyComplete
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.exe
+C:\Users\Jose Molina\source\repos\AirpodsUI\ConfigutatorUI\obj\Release\ConfigutatorUI.pdb

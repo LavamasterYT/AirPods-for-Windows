@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "nYhyoNpMLOr/FavPJJuJRZ9uXLD/OdppDXPTj9WpoLp0bD4Q5yhCUTRDe5f3uURuSa/XphaZL0cLSXCZIoZWuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\device.net\\3.1.0\\device.net.3.1.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.18362.2005\\microsoft.windows.sdk.contracts.10.0.18362.2005.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\system.management\\4.7.0\\system.management.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\usb.net\\3.1.0\\usb.net.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

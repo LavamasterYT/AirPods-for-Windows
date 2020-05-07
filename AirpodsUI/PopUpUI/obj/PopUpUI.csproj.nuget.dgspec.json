@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\PopUpUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\PopUpUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\PopUpUI.csproj",
+        "projectName": "PopUpUI",
+        "projectPath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\PopUpUI.csproj",
+        "packagesPath": "C:\\Users\\Jose Molina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jose Molina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Jose Molina\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

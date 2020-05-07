@@ -7,30 +7,33 @@ Adds AirPods support for Windows.
 You know how when you open your AirPods, and theres a animation on your iPhone or iPad? Well this application recreates that animation to Windows!
 
 ## Features
-- You are able to add a bluetooth device to the program, everytime you connect a device, the animation will play.
-- Change the animation to a picture or another video
-- Custom 'Done' text
-- Make bluetooth device name in the pop up static instead of changing to the device name
+- You are able to add multiple bluetooth device OR USB device to the program, everytime you connect a device, the pop up will show.
+- Extreme customization of the pop up window!
 - Custom templates to share with other people (If you want your template featured, PM me on reddit www.reddit.com/u/LavamasterYT or DM me on twitter: @mcgoodfortbad)
 
 # Future
-Some planned features I plan to add are:
-- Custom fonts
-- USB Devices support
-- And many more...
+Currently, there are no big features planned, but drop a suggestion!
 
 ## 0.4
 The changelog for 0.4 will be:
-- Multiple devices support.
+- Multiple device support.
+- Removed Windows 10 1803 and below support
 - Use of JSON files to store configurations and settings
-- Add ability to have custom colors on the prompt.
-- Possible rewrite of the code again, maybe just one aspect of it though.
+- USB Devices support
+- Rewrite of everything
+- Rename of project to AirPodsUI since AppleBluetoothUI was too much
+- New configurator:
+  - Design templates without having to write any code
+- New customization options:
+  - Customize Window background and foreground
+  - Customize button background and foreground
+  - Option to loop or not loop video (thanks to u/Chimera_Redsn0w for the suggestion)
 
-Release date TBA.
+Release date 5/7/2020.
 
 # Support/Contact
 For support PM me on Reddit: www.reddit.com/u/LavamasterYT or DM me on Twitter @mcgoodfortbad
 Found a bug? PM me or file a issue on GitHub.
 
 ## Notice
-This whole UI and AirPods assets are owned by Apple. All credit goes to Apple.
+This whole UI and AirPods assets are owned and inspired by Apple. All credit goes to Apple.

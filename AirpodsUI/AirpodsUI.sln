@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigutatorUI", "ConfigutatorUI\ConfigutatorUI.csproj", "{3F528528-A1D0-4E70-8EF2-9168B98468B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopUpUI", "PopUpUI\PopUpUI.csproj", "{213A71C4-027A-4C33-8642-BA21BE882BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{5D64C66E-ACCF-41CB-88BE-1FF50C8C0E41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F528528-A1D0-4E70-8EF2-9168B98468B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F528528-A1D0-4E70-8EF2-9168B98468B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F528528-A1D0-4E70-8EF2-9168B98468B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F528528-A1D0-4E70-8EF2-9168B98468B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213A71C4-027A-4C33-8642-BA21BE882BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213A71C4-027A-4C33-8642-BA21BE882BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213A71C4-027A-4C33-8642-BA21BE882BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213A71C4-027A-4C33-8642-BA21BE882BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D64C66E-ACCF-41CB-88BE-1FF50C8C0E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D64C66E-ACCF-41CB-88BE-1FF50C8C0E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D64C66E-ACCF-41CB-88BE-1FF50C8C0E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D64C66E-ACCF-41CB-88BE-1FF50C8C0E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F01DF8-BE12-4C71-8018-A3EDBDC5D855}
+	EndGlobalSection
+EndGlobal

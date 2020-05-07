@@ -77,23 +77,42 @@ namespace BluetoothUI
 
         private async void refresh_Click(object sender, RoutedEventArgs e)
         {
-            BluetoothDevices.Clear();
-            applyBt.IsEnabled = false;
-            refresh.IsEnabled = false;
-            BluetoothClient bc = new BluetoothClient();
-            BluetoothDeviceInfo[] bdi = await Task.Run(() => bc.DiscoverDevices());
-            foreach (BluetoothDeviceInfo i in bdi)
+            try
             {
-                BluetoothDevices.Add(i.DeviceName, i.DeviceAddress.ToInt64());
+                BluetoothDevices.Clear();
+                applyBt.IsEnabled = false;
+                refresh.IsEnabled = false;
+                BluetoothClient bc = new BluetoothClient();
+                BluetoothDeviceInfo[] bdi = await Task.Run(() => bc.DiscoverDevices());
+                foreach (BluetoothDeviceInfo i in bdi)
+                {
+                    if (!BluetoothDevices.ContainsKey(i.DeviceName))
+                        BluetoothDevices.Add(i.DeviceName, i.DeviceAddress.ToInt64());
+                }
+                foreach (KeyValuePair<string, long> entry in BluetoothDevices)
+                {
+                    ListBoxItem lbi = new ListBoxItem();
+                    lbi.Selected += Lbi_Selected;
+                    lbi.Content = entry.Key;
+                    btDevices.Items.Add(lbi);
+                }
+                refresh.IsEnabled = true;
             }
-            foreach (KeyValuePair<string, long> entry in BluetoothDevices)
+            catch (Exception ee)
             {
-                ListBoxItem lbi = new ListBoxItem();
-                lbi.Selected += Lbi_Selected;
-                lbi.Content = entry.Key;
-                btDevices.Items.Add(lbi);
+                string documents = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                string logs = documents + "\\ABUI\\logs\\";
+                
+                if (!Directory.Exists(logs))
+                    Directory.CreateDirectory(logs);
+                
+                using (StreamWriter sw = new StreamWriter(logs + $"{DateTime.Now.ToString("yyyy'-'MM'-'dd'T'HH'-'mm'-'ss")}.txt"))
+                {
+                    sw.WriteLine(Convert.ToString(ee));
+                }
+
+                MessageBox.Show("Unable to do action, please check the log files for details: " + logs);
             }
-            refresh.IsEnabled = true;
         }
 
         private void Lbi_Selected(object sender, RoutedEventArgs e)

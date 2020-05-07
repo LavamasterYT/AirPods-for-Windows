@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qd7JFUynybv7v447aeLFdZV0zkqYluDBvFYWXMK3C/WqF+RkNI/5kuCRU+O+7mIOpXGm6S5/NU9vN5CtyD+xdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\PopUpUI\\PopUpUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jose Molina\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
