@@ -29,7 +29,7 @@ The changelog for 0.4 will be:
   - Customize button background and foreground
   - Option to loop or not loop video (thanks to u/Chimera_Redsn0w for the suggestion)
 
-Release date 5/7/2020.
+Release date: It's fiinished, just fixing some bugs.
 
 # Support/Contact
 For support PM me on Reddit: www.reddit.com/u/LavamasterYT or DM me on Twitter @mcgoodfortbad
