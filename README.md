@@ -7,8 +7,8 @@ Adds AirPods support for Windows.
 You know how when you open your AirPods, and theres a animation on your iPhone or iPad? Well this application recreates that animation to Windows!
 
 ## Features
-- You are able to add multiple bluetooth device OR USB device to the program, everytime you connect a device, the pop up will show.
-- Extreme customization of the pop up window!
+- You are able to add multiple bluetooth device OR USB device to the program, everytime you connect a device, the pop up will show. (Coming soon)
+- Extreme customization of the pop up window! (Coming soon)
 - Custom templates to share with other people (If you want your template featured, PM me on reddit www.reddit.com/u/LavamasterYT or DM me on twitter: @mcgoodfortbad)
 
 # Future
