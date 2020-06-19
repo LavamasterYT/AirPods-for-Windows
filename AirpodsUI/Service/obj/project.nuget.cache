@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nYhyoNpMLOr/FavPJJuJRZ9uXLD/OdppDXPTj9WpoLp0bD4Q5yhCUTRDe5f3uURuSa/XphaZL0cLSXCZIoZWuQ==",
+  "dgSpecHash": "ahj62rrxVNH/QmVcW9dNA3Qu2ifvcODYkJ7rvMvXXxJ8batXbWuJ8JZDYtHyM8ckIhz55jH19eCNfLwkn3lbFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Molina\\.nuget\\packages\\device.net\\3.1.0\\device.net.3.1.0.nupkg.sha512",
     "C:\\Users\\Jose Molina\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.18362.2005\\microsoft.windows.sdk.contracts.10.0.18362.2005.nupkg.sha512",

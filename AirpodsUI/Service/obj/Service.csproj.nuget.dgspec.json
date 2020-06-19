@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj": {}
+    "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj": {
+    "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Jose Molina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -27,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Jose Molina\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

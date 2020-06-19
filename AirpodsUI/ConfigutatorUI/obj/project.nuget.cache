@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Q4AH/uiIV62xlwayTV41ovOsq46BL+NJ39G8BJxa46zFBL/ryzGPnejJytXf6iaZjmTYtXgqTMYgEUdfl5enQ==",
+  "dgSpecHash": "vegaMJpGmuQVeHn/E7545kr2Z/Z8J3INhPbAfZyh6WQqZt3nN4lzgQ8aKXVzeiTgw+fV3u3g19qJVsYpbKDCZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Molina\\source\\repos\\AirpodsUI\\ConfigutatorUI\\ConfigutatorUI.csproj",
+  "projectFilePath": "C:\\Users\\Jose Molina\\Documents\\GitHub\\AirPods-for-Windows\\AirpodsUI\\ConfigutatorUI\\ConfigutatorUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Molina\\.nuget\\packages\\32feet.net\\3.5.0\\32feet.net.3.5.0.nupkg.sha512",
     "C:\\Users\\Jose Molina\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

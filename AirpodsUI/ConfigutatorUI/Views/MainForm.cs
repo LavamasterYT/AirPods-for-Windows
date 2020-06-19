@@ -18,26 +18,6 @@ namespace ConfigutatorUI
 {
     public partial class MainForm : Form
     {
-        #region public bool ControlsEnabled = false;
-        private bool _controlsEnabled = false;
-
-        public bool ControlsEnabled
-        {
-            get
-            {
-                return _controlsEnabled;
-            }
-            set
-            {
-                _controlsEnabled = value;
-                if (_controlsEnabled)
-                {
-
-                }
-            }
-        }
-        #endregion
-
         private MainFormModel mfm;
 
         public MainForm()

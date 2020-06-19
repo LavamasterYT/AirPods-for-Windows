@@ -56,37 +56,37 @@
   <ItemGroup>
     <Compile Include="DefaultTemplate.cs" />
     <Compile Include="DeviceModel.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Views\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Views\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainFormModel.cs" />
     <Compile Include="OldTemplateModel.cs" />
-    <Compile Include="PairBluetooth.cs">
+    <Compile Include="Views\PairBluetooth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PairBluetooth.Designer.cs">
+    <Compile Include="Views\PairBluetooth.Designer.cs">
       <DependentUpon>PairBluetooth.cs</DependentUpon>
     </Compile>
-    <Compile Include="PairUSB.cs">
+    <Compile Include="Views\PairUSB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PairUSB.Designer.cs">
+    <Compile Include="Views\PairUSB.Designer.cs">
       <DependentUpon>PairUSB.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Save.cs" />
     <Compile Include="TemplateModel.cs" />
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Views\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PairBluetooth.resx">
+    <EmbeddedResource Include="Views\PairBluetooth.resx">
       <DependentUpon>PairBluetooth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PairUSB.resx">
+    <EmbeddedResource Include="Views\PairUSB.resx">
       <DependentUpon>PairUSB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
